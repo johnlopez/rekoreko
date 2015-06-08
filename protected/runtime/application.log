@@ -79,3 +79,48 @@ Stack trace:
 REQUEST_URI=/yii/rekoreko/usuario
 HTTP_REFERER=http://localhost/yii/rekoreko/usuario
 ---
+2015/06/08 20:28:08 [error] [exception.CException] exception 'CException' with message 'DatoLoginController cannot find the requested view "login".' in C:\wamp\www\yii\framework\web\CController.php:878
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(782): CController->renderPartial('login', Array, true)
+#1 C:\wamp\www\yii\rekoreko\protected\controllers\DatoLoginController.php(27): CController->render('login', Array)
+#2 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(49): DatoLoginController->actionIndex()
+#3 C:\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\wamp\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('')
+#7 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('datoLogin')
+#8 C:\wamp\www\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#9 C:\wamp\www\yii\rekoreko\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/yii/rekoreko/datoLogin
+---
+2015/06/08 20:31:20 [error] [exception.CException] exception 'CException' with message 'DatoLoginController cannot find the requested view "login".' in C:\wamp\www\yii\framework\web\CController.php:878
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(782): CController->renderPartial('login', Array, true)
+#1 C:\wamp\www\yii\rekoreko\protected\controllers\DatoLoginController.php(27): CController->render('login', Array)
+#2 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(49): DatoLoginController->actionIndex()
+#3 C:\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\wamp\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('')
+#7 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('datoLogin')
+#8 C:\wamp\www\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#9 C:\wamp\www\yii\rekoreko\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/yii/rekoreko/datoLogin
+---
+2015/06/08 20:32:24 [error] [exception.CException] exception 'CException' with message 'DatoLoginController cannot find the requested view "login".' in C:\wamp\www\yii\framework\web\CController.php:878
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(782): CController->renderPartial('login', Array, true)
+#1 C:\wamp\www\yii\rekoreko\protected\controllers\DatoLoginController.php(27): CController->render('login', Array)
+#2 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(49): DatoLoginController->actionIndex()
+#3 C:\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\wamp\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('')
+#7 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('datoLogin')
+#8 C:\wamp\www\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#9 C:\wamp\www\yii\rekoreko\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/yii/rekoreko/datoLogin
+---
